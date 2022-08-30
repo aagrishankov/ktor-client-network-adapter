@@ -39,7 +39,4 @@ jobs:
           automatic_release_tag: "${{ env.RELEASE_VERSION }}"
           prerelease: false
           title: "${{ env.RELEASE_VERSION }}"
-          files: |
-            core/build/libs/*.jar
-            ktor/build/libs/*.jar
-            retrofit/build/libs/*.jar
+          files: build/libs/*.jar
